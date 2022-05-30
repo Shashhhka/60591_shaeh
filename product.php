@@ -14,5 +14,5 @@ if ($is_violet_tuesday) {
     require('components/product_violet.php');
 }
 
-require('components/product_info.php');
+require('components/product_form.php');
 require('components/footer.php');
