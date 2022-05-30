@@ -274,6 +274,10 @@ a {
   background-color: black;
 }
 
+.color-grey {
+  background-color: grey;
+}
+
 .color-white {
   background-color: white;
   border: 1px solid #c0c0c0;
