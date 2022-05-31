@@ -22,7 +22,7 @@
             <p>
                 <label for="id4">Цвет:</label>
                 <select name="colors[]" multiple size="6" id="id4">
-                    <option value="yellor">Желтый</option>
+                    <option value="yellow">Желтый</option>
                     <option value="red">Красный</option>
                     <option value="green">Зеленый</option>
                     <option value="black">Черный</option>
