@@ -157,6 +157,22 @@ a {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.order-list li {
+  display: inline;
+}
+
+.order-card {
+  position: relative;
+
+  width: 132px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+
 .product-card-new {
   position: relative;
 }
