@@ -3,6 +3,9 @@ require('auth.php');
 require('dbconnect.php');
 require('components/header.php');
 if ($_SESSION['username']){
+
+    if ($_SESSION['is_admin'] == 1) {
+
     if ($_POST['title']){
         if ($_FILES && $_FILES["img_url"]["error"]== UPLOAD_ERR_OK)
         {
@@ -17,6 +20,10 @@ if ($_SESSION['username']){
     }
 
     require('components/product_form.php');
+    }
+    else {
+        $_SESSION['message'] = 'Для добавления продукта нужно иметь статус администратора';
+    }
 }
 else{
     $_SESSION['message'] = 'Для добавления продукта войдите в систему';
